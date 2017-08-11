@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+  font-family: "star";
+  src: url(../fonts/StardustAdventure.ttf)
+}
+
+@font-face {
+  font-family: "bm";
+  src: url(../fonts/BroadMarker.ttf)
+}
+
+body {
+    background-image: url('assets/images/sample-pattern.png');
+}
+header {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+#logo {
+    float: left;
+    margin-left:10px;
+    margin-top: 27px;
+}
+
+section {
+    text-align: center;
+    padding-top: 150px;
+    top: 15%;
+    bottom: 25%;
+    z-index: -10;
+    height: auto;
+  }
+nav {
+    float: right;
+    margin: 30px 40px 30px 30px ;
+}
+nav li {
+ list-style: none;
+ display: inline-block;
+}
+#article-list{
+      background-color: white;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 80px;
+      margin-bottom: 100px;
+      text-align: left;
+      border: 35px solid white;
+}
+p{
+  margin-top: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: #0b3577;
+  padding-top: 30px;
+  font-family: "bm";
+}
+footer {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    color: white;
+}
